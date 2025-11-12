@@ -1,0 +1,4 @@
+curl -i -X GET \
+  -H "Origin: http://localhost:3000" \
+  -H "Authorization: Bearer BADTOKEN" \
+  "https://t39eirkke1.execute-api.ap-south-1.amazonaws.com/default/vaahan-api-handler"

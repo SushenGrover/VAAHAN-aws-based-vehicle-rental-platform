@@ -1,0 +1,6 @@
+flask
+flask_cors
+requests
+boto3
+PyJWT[crypto]
+aws-lambda-wsgi
