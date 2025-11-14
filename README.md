@@ -46,6 +46,8 @@ It integrates **AWS Cognito**, **Lambda**, **API Gateway**, **DynamoDB**, **SNS*
 
 The system follows a fully-serverless event-driven design:
 
+![Architecture Diagram](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/1.png)
+
 * **Frontend**: React.js hosted on S3 + CloudFront
 * **Authentication**: AWS Cognito
 * **Backend**: Python (Flask) running inside AWS Lambda
@@ -145,12 +147,12 @@ python app.py
 
 | View                                    | Screenshot                                                                            |
 | --------------------------------------- | ------------------------------------------------------------------------------------- |
-| Login Page (Amplify + Cognito)          | ![Login Page](https://github.com/SushenGrover/hackwell2/blob/main/images/1.png)       |
-| Dashboard (CloudFront + S3)             | ![Dashboard](https://github.com/SushenGrover/hackwell2/blob/main/images/2.png)        |
-| Add Vehicle Form (Lambda + API Gateway) | ![Add Vehicle Form](https://github.com/SushenGrover/hackwell2/blob/main/images/3.png) |
-| Booking Page (DynamoDB + SNS)           | ![Booking Page](https://github.com/SushenGrover/hackwell2/blob/main/images/5.png)     |
-| Profile Page (React)                    | ![Profile Page](https://github.com/SushenGrover/hackwell2/blob/main/images/6.png)     |
-| Chatbot (IBM Watson Assistant)          | ![Chatbot](https://github.com/SushenGrover/hackwell2/blob/main/images/6.png)          |
+| Login Page (Amplify + Cognito)          | ![Login Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/1.png)       |
+| Dashboard (CloudFront + S3)             | ![Dashboard](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/2.png)        |
+| Add Vehicle Form (Lambda + API Gateway) | ![Add Vehicle Form](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/3.png) |
+| Booking Page (DynamoDB + SNS)           | ![Booking Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/5.png)     |
+| Profile Page (React)                    | ![Profile Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/6.png)     |
+| Chatbot (IBM Watson Assistant)          | ![Chatbot](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/6.png)          |
 
 ---
 
@@ -172,6 +174,7 @@ B.Tech CSE, VIT Chennai
 ## ⭐ If you like this project…
 
 Please **star ⭐ the repository** on GitHub!
+
 
 
 
