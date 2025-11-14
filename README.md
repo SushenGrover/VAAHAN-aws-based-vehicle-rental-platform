@@ -143,11 +143,14 @@ python app.py
 
 ## 📸 Screenshots
 
-* Login Page
-* Dashboard
-* Add Vehicle Form
-* Booking Page
-* Profile Page
+| View                                    | Screenshot                                                                            |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| Login Page (Amplify + Cognito)          | ![Login Page](https://github.com/SushenGrover/hackwell2/blob/main/images/1.png)       |
+| Dashboard (CloudFront + S3)             | ![Dashboard](https://github.com/SushenGrover/hackwell2/blob/main/images/2.png)        |
+| Add Vehicle Form (Lambda + API Gateway) | ![Add Vehicle Form](https://github.com/SushenGrover/hackwell2/blob/main/images/3.png) |
+| Booking Page (DynamoDB + SNS)           | ![Booking Page](https://github.com/SushenGrover/hackwell2/blob/main/images/5.png)     |
+| Profile Page (React)                    | ![Profile Page](https://github.com/SushenGrover/hackwell2/blob/main/images/6.png)     |
+| Chatbot (IBM Watson Assistant)          | ![Chatbot](https://github.com/SushenGrover/hackwell2/blob/main/images/6.png)          |
 
 ---
 
@@ -169,5 +172,6 @@ B.Tech CSE, VIT Chennai
 ## ⭐ If you like this project…
 
 Please **star ⭐ the repository** on GitHub!
+
 
 
