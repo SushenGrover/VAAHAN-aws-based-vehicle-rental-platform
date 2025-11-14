@@ -11,34 +11,34 @@ It integrates **AWS Cognito**, **Lambda**, **API Gateway**, **DynamoDB**, **SNS*
 
 ### 🔐 **User Authentication**
 
-* Secure login & signup using AWS Cognito
-* JWT-based authorization
-* Frontend authentication handled by AWS Amplify JS
+- Secure login & signup using AWS Cognito
+- JWT-based authorization
+- Frontend authentication handled by AWS Amplify JS
 
 ### 🚘 **Vehicle Listing & Management**
 
-* Add new vehicles via a simple form
-* View all available vehicles
-* Remove only the vehicles added by logged-in user
-* Real-time updates from DynamoDB
+- Add new vehicles via a simple form
+- View all available vehicles
+- Remove only the vehicles added by logged-in user
+- Real-time updates from DynamoDB
 
 ### 📝 **Smart Booking System**
 
-* Book a vehicle with atomic DynamoDB operations
-* Prevents double-booking using conditional writes
-* Sends SNS notifications to the vehicle owner
+- Book a vehicle with atomic DynamoDB operations
+- Prevents double-booking using conditional writes
+- Sends SNS notifications to the vehicle owner
 
 ### ⚙️ **Serverless Backend API**
 
-* REST API built using AWS Lambda + Flask
-* API Gateway routes: `/api/vehicles` & `/api/book`
-* Fully secured with Cognito JWT verification
-* Robust logging with CloudWatch
+- REST API built using AWS Lambda + Flask
+- API Gateway routes: `/api/vehicles` & `/api/book`
+- Fully secured with Cognito JWT verification
+- Robust logging with CloudWatch
 
 ### 🤖 **AI Chatbot Assistant**
 
-* Integrated IBM Watson Assistant
-* Provides live help & guided navigation
+- Integrated IBM Watson Assistant
+- Provides live help & guided navigation
 
 ---
 
@@ -46,16 +46,16 @@ It integrates **AWS Cognito**, **Lambda**, **API Gateway**, **DynamoDB**, **SNS*
 
 The system follows a fully-serverless event-driven design:
 
-![Architecture Diagram](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/1.png)
+![Architecture Diagram](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/0.png)
 
-* **Frontend**: React.js hosted on S3 + CloudFront
-* **Authentication**: AWS Cognito
-* **Backend**: Python (Flask) running inside AWS Lambda
-* **API Gateway**: Exposes secure API endpoints
-* **Database**: DynamoDB (NoSQL)
-* **Notifications**: Amazon SNS
-* **Monitoring**: CloudWatch
-* **AI Assistant**: IBM Watson Assistant
+- **Frontend**: React.js hosted on S3 + CloudFront
+- **Authentication**: AWS Cognito
+- **Backend**: Python (Flask) running inside AWS Lambda
+- **API Gateway**: Exposes secure API endpoints
+- **Database**: DynamoDB (NoSQL)
+- **Notifications**: Amazon SNS
+- **Monitoring**: CloudWatch
+- **AI Assistant**: IBM Watson Assistant
 
 ---
 
@@ -91,25 +91,25 @@ The system follows a fully-serverless event-driven design:
 
 ### **Frontend**
 
-* React.js
-* Tailwind CSS
-* AWS Amplify (for Auth)
-* CloudFront CDN
+- React.js
+- Tailwind CSS
+- AWS Amplify (for Auth)
+- CloudFront CDN
 
 ### **Backend**
 
-* Python Flask
-* AWS Lambda
-* DynamoDB
-* SNS for notifications
-* API Gateway
+- Python Flask
+- AWS Lambda
+- DynamoDB
+- SNS for notifications
+- API Gateway
 
 ### **Cloud**
 
-* AWS IAM
-* AWS S3
-* AWS CloudWatch
-* IBM Watson Assistant
+- AWS IAM
+- AWS S3
+- AWS CloudWatch
+- IBM Watson Assistant
 
 ---
 
@@ -145,13 +145,13 @@ python app.py
 
 ## 📸 Screenshots
 
-| View                                    | Screenshot                                                                            |
-| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| View                                    | Screenshot                                                                                                           |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Login Page (Amplify + Cognito)          | ![Login Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/1.png)       |
 | Dashboard (CloudFront + S3)             | ![Dashboard](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/2.png)        |
 | Add Vehicle Form (Lambda + API Gateway) | ![Add Vehicle Form](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/3.png) |
-| Booking Page (DynamoDB + SNS)           | ![Booking Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/5.png)     |
-| Profile Page (React)                    | ![Profile Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/6.png)     |
+| Booking Page (DynamoDB + SNS)           | ![Booking Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/4.png)     |
+| Profile Page (React)                    | ![Profile Page](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/5.png)     |
 | Chatbot (IBM Watson Assistant)          | ![Chatbot](https://github.com/SushenGrover/VAAHAN-aws-based-vehicle-rental-platform/blob/main/images/6.png)          |
 
 ---
@@ -174,7 +174,3 @@ B.Tech CSE, VIT Chennai
 ## ⭐ If you like this project…
 
 Please **star ⭐ the repository** on GitHub!
-
-
-
-
