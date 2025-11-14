@@ -1,6 +1,6 @@
 ---
 
-# 🚗 VAAHAN – AWS-Based Vehicle Rental Platform
+# VAAHAN – AWS-Based Vehicle Rental Platform
 
 **A Cloud-Native Vehicle Rental Marketplace built using AWS Serverless Architecture & React.js**
 
@@ -171,3 +171,4 @@ B.Tech CSE, VIT Chennai
 ## ⭐ If you like this project…
 
 Please **star ⭐ the repository** on GitHub!
+
